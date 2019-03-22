@@ -1,0 +1,18 @@
+kureha.py is the python script you'll want to run. 
+
+To generate a csv for the datasets run as: 
+
+	python kureha.py <inputfile> <testname>
+
+For example
+	
+	python kureha.py ./samples/input1.txt fluidanimate
+
+This should generate a CSV with a timestamp and plop it in the results folder.
+
+The input file should contain a file path to a data file on each line. 
+See input1.txt in the samples folder for help.
+I'll tweak this later so you have more options.
+
+
+
