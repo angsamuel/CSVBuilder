@@ -1,7 +1,9 @@
 #array of all the results we're looking for
 
+#names of sections in the spreadsheet
 breakRows = ["NEW ALLOCATIONS", "FREELIST ALLOCATIONS", "DEALLOCATIONS", "LOCK TOTALS", "Thread Contention","Total Memory Usage", "Detailed Lock Usage"]
 
+#these are the row names we'll use
 resultFields = [
 "num_sbrk",
 "size_sbrk",
@@ -84,9 +86,7 @@ countMatrix =[[] for x in range(0,len(resultFields))]
 
 
 def processDataFile(dataFile, allocatorName):
-	#work with the global fields declared above
 	global resultFields
-	#global resultRows
 	global allocatorsList
 	global dataMatrix
 	global countMatrix
@@ -105,26 +105,26 @@ def processDataFile(dataFile, allocatorName):
 
 	currentRow = 0 #the field we should be looking at
 
-	for line in dataFile:
+	ifor line in dataFile:
 		result = 0 #default value for position in matrix
 
-		if resultFields[currentRow] in line: #if the line of the input file is the correct input
+		if resultFields[currentRow] in line: #if the line of the input file stores the value for the row we're looking for...
 			stringWithData = line.split(resultFields[currentRow])[1]			
-
-			if resultFields[currentRow] not in breakRows: #this is just a label, move on
+			if resultFields[currentRow] not in breakRows: #this is just a label, move on, no data for this row if not satisfied
 
 				#strip our % out of results as a percentage
 				stringWithData = stringWithData.replace("%","")
 				stringWithData = stringWithData.replace("=","")
-
+				
+				#this line of the file has what we want, let's format it so it's easier to work with
 				if "avg" in stringWithData: #we're grabbing an average value
 					result = float(stringWithData.split("avg")[1])
-				elif resultFields[currentRow] == "cache owner conflicts":
+				elif resultFields[currentRow] == "cache owner conflicts": #special case, grab the value enclosed in parentheses 
 					result = float(stringWithData.split("(")[1].replace(")",""))
 				else: 
-					result = float(stringWithData)
+					result = float(stringWithData) 
 
-				#place result in correct matrix
+				#place result in correct matrix, averaging with other values
 				dataMatrix[currentRow][columnNum] = ((dataMatrix[currentRow][columnNum] * countMatrix[currentRow][columnNum]) + result) / (countMatrix[currentRow][columnNum] + 1)
 				#indicate that we have averaged in an additional sample
 				countMatrix[currentRow][columnNum] += 1
@@ -134,21 +134,28 @@ def processDataFile(dataFile, allocatorName):
 
 	#print dataMatrix
 
+
+#this function prints our data into a CSV format
 def createCSV(outputFileName):
 	outputFile = open(outputFileName, "w")
 	header = ""
 	outputFile.write("FIELD LABELS")
+
+	#put our allocator names in the top row
 	for allocatorName in allocatorsList:
 		outputFile.write("," + allocatorName)
+	
 	#print header
 	outputFile.write("\n")
+	
+	#print data to CSV
 	for resultFieldIndex in range(0,len(resultFields)):
 		rowString = ""
 		outputFile.write(resultFields[resultFieldIndex])
 		if resultFields[resultFieldIndex] not in breakRows:
 		 	for allocatorIndex in range(0,len(allocatorsList)):
 		 		outputFile.write("," + str(dataMatrix[resultFieldIndex][allocatorIndex]))
-		# 		outputFile.write(dataMatrix[resultFieldIndex][allocatorIndex])
+		#go to the next row
 		outputFile.write("\n")
 
 
