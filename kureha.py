@@ -12,7 +12,7 @@ outputName = sys.argv[2]
 
 #for each test file listed in the input file
 for line in inputFile:
-	if len(line.rstrip()) < 3: #if we see the name of our test in the file name
+	if len(line.rstrip()) > 3: #if we see the name of our test in the file name
 		dataFileName = line.replace("\n","")#
 		dataFile = open(dataFileName.rstrip(), "r")
 		allocatorName = dataFileName.split("-")[1]
