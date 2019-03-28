@@ -12,12 +12,12 @@ outputName = sys.argv[2]
 
 #for each test file listed in the input file
 for line in inputFile:
-	#if testName in line: #if we see the name of our test in the file name
-	dataFileName = line.replace("\n","")#
-	dataFile = open(dataFileName.rstrip(), "r")
-	allocatorName = dataFileName.split("-")[1]
-	processDataFile(dataFile,allocatorName) #process the file with that name
-	dataFile.close()
+	if len(line.rstrip()) < 3: #if we see the name of our test in the file name
+		dataFileName = line.replace("\n","")#
+		dataFile = open(dataFileName.rstrip(), "r")
+		allocatorName = dataFileName.split("-")[1]
+		processDataFile(dataFile,allocatorName) #process the file with that name
+		dataFile.close()
 
 
 #build the name of our output 
