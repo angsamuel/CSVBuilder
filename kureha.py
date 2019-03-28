@@ -16,6 +16,7 @@ for line in inputFile:
 		dataFileName = line.replace("\n","")#
 		dataFile = open(dataFileName.rstrip(), "r")
 		allocatorName = dataFileName.split("-")[1]
+		print(allocatorName)
 		processDataFile(dataFile,allocatorName) #process the file with that name
 		dataFile.close()
 
