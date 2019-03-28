@@ -1,0 +1,2 @@
+/home/sam/multithreadingtests/parsec/tests/dedup/dedup-hoard-prof_libmallocprof_26159_main_thread.txt
+/home/sam/multithreadingtests/parsec/tests/fluidanimate/fluidanimate-hoard-prof_libmallocprof_25879_main_thread.txt

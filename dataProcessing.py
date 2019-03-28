@@ -105,7 +105,7 @@ def processDataFile(dataFile, allocatorName):
 
 	currentRow = 0 #the field we should be looking at
 
-	ifor line in dataFile:
+	for line in dataFile:
 		result = 0 #default value for position in matrix
 
 		if resultFields[currentRow] in line: #if the line of the input file stores the value for the row we're looking for...
