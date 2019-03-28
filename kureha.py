@@ -14,7 +14,7 @@ outputName = sys.argv[2]
 for line in inputFile:
 	#if testName in line: #if we see the name of our test in the file name
 	dataFileName = line.replace("\n","")#
-	dataFile = open(dataFileName, "r")
+	dataFile = open(dataFileName.rstrip(), "r")
 	allocatorName = dataFileName.split("-")[1]
 	processDataFile(dataFile,allocatorName) #process the file with that name
 	dataFile.close()
