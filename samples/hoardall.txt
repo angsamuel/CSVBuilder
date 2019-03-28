@@ -4,7 +4,6 @@
 /home/sam/multithreadingtests/parsec/tests/aget/aget-hoard-prof_libmallocprof_44392_main_thread.txt          
 /home/sam/multithreadingtests/parsec/tests/aget/aget-hoard-prof_libmallocprof_44613_main_thread.txt          
 /home/sam/multithreadingtests/parsec/tests/aget/aget-hoard-prof_libmallocprof_44759_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/blackscholes/blackscholes-hoard-prof_libmallocprof_10777_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/blackscholes/blackscholes-hoard-prof_libmallocprof_10878_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/blackscholes/blackscholes-hoard-prof_libmallocprof_10975_main_thread.txt
@@ -14,14 +13,12 @@
 /home/sam/multithreadingtests/parsec/tests/blackscholes/blackscholes-hoard-prof_libmallocprof_45949_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/blackscholes/blackscholes-hoard-prof_libmallocprof_46200_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/blackscholes/blackscholes-hoard-prof_libmallocprof_46421_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/bodytrack/bodytrack-hoard-prof_libmallocprof_12512_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/bodytrack/bodytrack-hoard-prof_libmallocprof_12713_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/bodytrack/bodytrack-hoard-prof_libmallocprof_12911_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/bodytrack/bodytrack-hoard-prof_libmallocprof_46638_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/bodytrack/bodytrack-hoard-prof_libmallocprof_46959_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/bodytrack/bodytrack-hoard-prof_libmallocprof_47171_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/canneal/canneal-hoard-prof_libmallocprof_11523_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/canneal/canneal-hoard-prof_libmallocprof_11824_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/canneal/canneal-hoard-prof_libmallocprof_12150_main_thread.txt
@@ -31,7 +28,6 @@
 /home/sam/multithreadingtests/parsec/tests/canneal/canneal-hoard-prof_libmallocprof_387_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/canneal/canneal-hoard-prof_libmallocprof_47396_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/canneal/canneal-hoard-prof_libmallocprof_48386_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/dedup/dedup-hoard-prof_libmallocprof_26159_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/dedup/dedup-hoard-prof_libmallocprof_26298_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/dedup/dedup-hoard-prof_libmallocprof_26401_main_thread.txt
@@ -41,7 +37,6 @@
 /home/sam/multithreadingtests/parsec/tests/dedup/dedup-hoard-prof_libmallocprof_42274_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/dedup/dedup-hoard-prof_libmallocprof_42420_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/dedup/dedup-hoard-prof_libmallocprof_42578_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/facesim/facesim-hoard-prof_libmallocprof_1143_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/facesim/facesim-hoard-prof_libmallocprof_12355_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/facesim/facesim-hoard-prof_libmallocprof_12601_main_thread.txt
@@ -51,7 +46,6 @@
 /home/sam/multithreadingtests/parsec/tests/facesim/facesim-hoard-prof_libmallocprof_14930_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/facesim/facesim-hoard-prof_libmallocprof_1535_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/facesim/facesim-hoard-prof_libmallocprof_1868_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/ferret/ferret-hoard-prof_libmallocprof_12935_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/ferret/ferret-hoard-prof_libmallocprof_13176_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/ferret/ferret-hoard-prof_libmallocprof_13254_main_thread.txt
@@ -61,7 +55,6 @@
 /home/sam/multithreadingtests/parsec/tests/ferret/ferret-hoard-prof_libmallocprof_2349_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/ferret/ferret-hoard-prof_libmallocprof_3325_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/ferret/ferret-hoard-prof_libmallocprof_3488_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/fluidanimate/fluidanimate-hoard-prof_libmallocprof_25879_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/fluidanimate/fluidanimate-hoard-prof_libmallocprof_25972_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/fluidanimate/fluidanimate-hoard-prof_libmallocprof_26056_main_thread.txt
@@ -71,7 +64,6 @@
 /home/sam/multithreadingtests/parsec/tests/fluidanimate/fluidanimate-hoard-prof_libmallocprof_41715_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/fluidanimate/fluidanimate-hoard-prof_libmallocprof_41895_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/fluidanimate/fluidanimate-hoard-prof_libmallocprof_42085_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/freqmine/freqmine-hoard-prof_libmallocprof_13486_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/freqmine/freqmine-hoard-prof_libmallocprof_13802_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/freqmine/freqmine-hoard-prof_libmallocprof_14035_main_thread.txt
@@ -81,7 +73,6 @@
 /home/sam/multithreadingtests/parsec/tests/freqmine/freqmine-hoard-prof_libmallocprof_3679_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/freqmine/freqmine-hoard-prof_libmallocprof_4188_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/freqmine/freqmine-hoard-prof_libmallocprof_4530_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/histogram/histogram-hoard-prof_libmallocprof_2795_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/histogram/histogram-hoard-prof_libmallocprof_2981_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/histogram/histogram-hoard-prof_libmallocprof_3151_main_thread.txt
@@ -91,7 +82,6 @@
 /home/sam/multithreadingtests/parsec/tests/histogram/histogram-hoard-prof_libmallocprof_6542_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/histogram/histogram-hoard-prof_libmallocprof_6618_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/histogram/histogram-hoard-prof_libmallocprof_6688_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/kmeans/kmeans-hoard-prof_libmallocprof_3319_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/kmeans/kmeans-hoard-prof_libmallocprof_37516_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/kmeans/kmeans-hoard-prof_libmallocprof_39194_main_thread.txt
@@ -101,7 +91,6 @@
 /home/sam/multithreadingtests/parsec/tests/kmeans/kmeans-hoard-prof_libmallocprof_7083_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/kmeans/kmeans-hoard-prof_libmallocprof_7807_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/kmeans/kmeans-hoard-prof_libmallocprof_8600_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/linear_regression/linear_regression-hoard-prof_libmallocprof_1039_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/linear_regression/linear_regression-hoard-prof_libmallocprof_35652_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/linear_regression/linear_regression-hoard-prof_libmallocprof_35832_main_thread.txt
@@ -115,7 +104,6 @@
 /home/sam/multithreadingtests/parsec/tests/linear_regression/linear_regression-hoard-prof_libmallocprof_6068_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/linear_regression/linear_regression-hoard-prof_libmallocprof_669_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/linear_regression/linear_regression-hoard-prof_libmallocprof_841_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/matrix_multiply/matrix_multiply-hoard-prof_libmallocprof_28893_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/matrix_multiply/matrix_multiply-hoard-prof_libmallocprof_28973_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/matrix_multiply/matrix_multiply-hoard-prof_libmallocprof_29047_main_thread.txt
@@ -125,7 +113,6 @@
 /home/sam/multithreadingtests/parsec/tests/matrix_multiply/matrix_multiply-hoard-prof_libmallocprof_9196_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/matrix_multiply/matrix_multiply-hoard-prof_libmallocprof_9392_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/matrix_multiply/matrix_multiply-hoard-prof_libmallocprof_9544_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/pbzip2/pbzip2-hoard-prof_libmallocprof_10316_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pbzip2/pbzip2-hoard-prof_libmallocprof_10395_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pbzip2/pbzip2-hoard-prof_libmallocprof_10474_main_thread.txt
@@ -135,7 +122,6 @@
 /home/sam/multithreadingtests/parsec/tests/pbzip2/pbzip2-hoard-prof_libmallocprof_44912_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pbzip2/pbzip2-hoard-prof_libmallocprof_45117_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pbzip2/pbzip2-hoard-prof_libmallocprof_45281_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/pca/pca-hoard-prof_libmallocprof_28505_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pca/pca-hoard-prof_libmallocprof_28646_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pca/pca-hoard-prof_libmallocprof_28781_main_thread.txt
@@ -145,7 +131,6 @@
 /home/sam/multithreadingtests/parsec/tests/pca/pca-hoard-prof_libmallocprof_7811_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pca/pca-hoard-prof_libmallocprof_8105_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pca/pca-hoard-prof_libmallocprof_8923_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/pfscan/pfscan-hoard-prof_libmallocprof_10551_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pfscan/pfscan-hoard-prof_libmallocprof_10631_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pfscan/pfscan-hoard-prof_libmallocprof_10699_main_thread.txt
@@ -155,7 +140,6 @@
 /home/sam/multithreadingtests/parsec/tests/pfscan/pfscan-hoard-prof_libmallocprof_45448_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pfscan/pfscan-hoard-prof_libmallocprof_45636_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/pfscan/pfscan-hoard-prof_libmallocprof_45780_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/raytrace/raytrace-hoard-prof_libmallocprof_27268_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/raytrace/raytrace-hoard-prof_libmallocprof_27798_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/raytrace/raytrace-hoard-prof_libmallocprof_28287_main_thread.txt
@@ -165,7 +149,6 @@
 /home/sam/multithreadingtests/parsec/tests/raytrace/raytrace-hoard-prof_libmallocprof_44624_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/raytrace/raytrace-hoard-prof_libmallocprof_5652_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/raytrace/raytrace-hoard-prof_libmallocprof_6748_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/reverse_index/reverse_index-hoard-prof_libmallocprof_1216_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/reverse_index/reverse_index-hoard-prof_libmallocprof_2137_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/reverse_index/reverse_index-hoard-prof_libmallocprof_2458_main_thread.txt
@@ -176,7 +159,6 @@
 /home/sam/multithreadingtests/parsec/tests/reverse_index/reverse_index-hoard-prof_libmallocprof_6165_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/reverse_index/reverse_index-hoard-prof_libmallocprof_6298_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/reverse_index/reverse_index-hoard-prof_libmallocprof_6437_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/streamcluster/streamcluster-hoard-prof_libmallocprof_14239_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/streamcluster/streamcluster-hoard-prof_libmallocprof_14581_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/streamcluster/streamcluster-hoard-prof_libmallocprof_14926_main_thread.txt
@@ -186,7 +168,6 @@
 /home/sam/multithreadingtests/parsec/tests/streamcluster/streamcluster-hoard-prof_libmallocprof_4872_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/streamcluster/streamcluster-hoard-prof_libmallocprof_5590_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/streamcluster/streamcluster-hoard-prof_libmallocprof_6276_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/string_match/string_match-hoard-prof_libmallocprof_10037_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/string_match/string_match-hoard-prof_libmallocprof_29121_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/string_match/string_match-hoard-prof_libmallocprof_29196_main_thread.txt
@@ -196,7 +177,6 @@
 /home/sam/multithreadingtests/parsec/tests/string_match/string_match-hoard-prof_libmallocprof_46979_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/string_match/string_match-hoard-prof_libmallocprof_9710_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/string_match/string_match-hoard-prof_libmallocprof_9889_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/swaptions/swaptions-hoard-prof_libmallocprof_15437_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/swaptions/swaptions-hoard-prof_libmallocprof_15871_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/swaptions/swaptions-hoard-prof_libmallocprof_16229_main_thread.txt
@@ -206,7 +186,6 @@
 /home/sam/multithreadingtests/parsec/tests/swaptions/swaptions-hoard-prof_libmallocprof_7016_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/swaptions/swaptions-hoard-prof_libmallocprof_7576_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/swaptions/swaptions-hoard-prof_libmallocprof_7998_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/vips/vips-hoard-prof_libmallocprof_26547_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/vips/vips-hoard-prof_libmallocprof_26742_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/vips/vips-hoard-prof_libmallocprof_26934_main_thread.txt
@@ -216,7 +195,6 @@
 /home/sam/multithreadingtests/parsec/tests/vips/vips-hoard-prof_libmallocprof_42767_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/vips/vips-hoard-prof_libmallocprof_42962_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/vips/vips-hoard-prof_libmallocprof_43105_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/word_count/word_count-hoard-prof_libmallocprof_42466_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/word_count/word_count-hoard-prof_libmallocprof_43146_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/word_count/word_count-hoard-prof_libmallocprof_43766_main_thread.txt
@@ -226,7 +204,6 @@
 /home/sam/multithreadingtests/parsec/tests/word_count/word_count-hoard-prof_libmallocprof_9545_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/word_count/word_count-hoard-prof_libmallocprof_9858_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/word_count/word_count-hoard-prof_libmallocprof_9933_main_thread.txt
-
 /home/sam/multithreadingtests/parsec/tests/x264/x264-hoard-prof_libmallocprof_14881_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/x264/x264-hoard-prof_libmallocprof_17370_main_thread.txt
 /home/sam/multithreadingtests/parsec/tests/x264/x264-hoard-prof_libmallocprof_19896_main_thread.txt
