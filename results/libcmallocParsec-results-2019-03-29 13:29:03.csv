@@ -1,0 +1,69 @@
+FIELD LABELS,libcmalloc221,libcmalloc224
+num_sbrk,0.0,0.0
+size_sbrk,0.0,0.0
+cycles_alloc,5878885972.7,5978763405.61
+cycles_allocFFL,79753048585.5,57195002009.5
+cycles_free,77420661567.7,56292377650.3
+NEW ALLOCATIONS
+allocation cycles,3589411.99565,3708815.11449
+allocation faults,0.639130434783,0.64347826087
+allocation tlb read misses,10.7,8.43405797101
+allocation tlb write misses,5.72391304348,5.30942028986
+allocation cache misses,28.05,31.7775362319
+num allocation instr,117.217391304,119.118115942
+FREELIST ALLOCATIONS
+allocation cycles,1915548.28406,1699116.14783
+allocation faults,0.378260869565,0.365942028986
+allocation tlb read misses,18.0,18.0152173913
+allocation tlb write misses,8.72391304348,8.99565217391
+allocation cache misses,40.4420289855,55.0050724638
+num allocation instr,101.728985507,109.047826087
+DEALLOCATIONS
+deallocation cycles,2684868.92174,2611092.87029
+deallocation faults,0.00144927536232,0.000724637681159
+deallocation tlb read misses,1.02753623188,1.0652173913
+deallocation tlb write misses,0.178985507246,0.122463768116
+deallocation cache misses,45.2789855072,51.9253623188
+num deallocation instr,39.8115942029,40.2130434783
+LOCK TOTALS
+num pthread mutex locks,37.6086956522,38.5434782609
+num pthread trylocks,0.0,0.0
+num pthread spin locks,0.0,0.0
+num pthread spin trylocks,0.0,0.0
+Thread Contention
+mutex_waits,7492230.34783,7492303.06522
+mutex_wait_cycles,278.881884058,293.97826087
+mutex_trylock_waits,39.0,39.0
+mutex_trylock_fails,0.0,0.0
+spinlock_waits,0.0,0.0
+spinlock_wait_cycles,0.0,0.0
+spin_trylock_waits,0.0,0.0
+spin_trylock_fails,0.0,0.0
+mmap_waits,106.15942029,106.615942029
+mmap_wait_cycles,340791.85942,309966.36087
+sbrk_wait_cycles,0.0,0.0
+madvise_waits,25568.826087,3420.31884058
+madvise_wait_cycles,62649.3072464,126660.830435
+munmap_waits,121.884057971,121.601449275
+munmap_wait_cycles,564552.176812,722486.050725
+mremap_waits,0.0,0.0
+mremap_wait_cycles,0.0,0.0
+mprotect_waits,11478.3043478,11153.7246377
+mprotect_wait_cycle,234318.502174,388162.917391
+critical_section_counter,7492231.26087,7492303.06522
+critical_section_duration,50765.4695652,9621.3826087
+Total Memory Usage
+maxRealMemoryUsage,8.0203235151e+17,8.02032351501e+17
+maxRealAllocMemoryUsage,8.02032351515e+17,8.02032351506e+17
+maxTotalMemoryUsage,477257876.406,477076880.696
+realMemoryUsage,480895601.899,481475190.051
+realAllocatedMemoryUsage,487350663.652,487932750.145
+totalMemoryUsage,4926789780.41,994151824.696
+Detailed Lock Usage
+num sampled accesses,729290.905797,691582.572464
+total cache bytes accessed,43319024.2536,41394319.6159
+total page bytes accessed,2632450237.64,2501386833.12
+cache line writes,297629.275362,278915.289855
+cache owner conflicts,0.32387173913,0.326223913043
+avg. cache utilization,nan,nan
+avg. page utilization,nan,nan

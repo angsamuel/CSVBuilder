@@ -1,0 +1,69 @@
+FIELD LABELS,jemalloc
+num_sbrk,11.6205128205
+size_sbrk,0.0
+cycles_alloc,7311830997.59
+cycles_allocFFL,88109422770.5
+cycles_free,98365484051.9
+NEW ALLOCATIONS
+allocation cycles,2918160.3359
+allocation faults,0.881538461538
+allocation tlb read misses,23.7538461538
+allocation tlb write misses,3.97743589744
+allocation cache misses,60.5876923077
+num allocation instr,297.911282051
+FREELIST ALLOCATIONS
+allocation cycles,1908242.79333
+allocation faults,0.00205128205128
+allocation tlb read misses,10.5133333333
+allocation tlb write misses,0.397948717949
+allocation cache misses,10.9758974359
+num allocation instr,17.461025641
+DEALLOCATIONS
+deallocation cycles,3042529.01436
+deallocation faults,0.00769230769231
+deallocation tlb read misses,4.02358974359
+deallocation tlb write misses,0.252307692308
+deallocation cache misses,28.5451282051
+num deallocation instr,35.7061538462
+LOCK TOTALS
+num pthread mutex locks,148.071794872
+num pthread trylocks,0.0
+num pthread spin locks,0.0
+num pthread spin trylocks,0.0
+Thread Contention
+mutex_waits,634909.138462
+mutex_wait_cycles,46776.9446154
+mutex_trylock_waits,0.0
+mutex_trylock_fails,0.0
+spinlock_waits,0.0
+spinlock_wait_cycles,0.0
+spin_trylock_waits,0.0
+spin_trylock_fails,0.0
+mmap_waits,89.5641025641
+mmap_wait_cycles,313247.464615
+sbrk_wait_cycles,55.4794871795
+madvise_waits,1729.84102564
+madvise_wait_cycles,518.249230769
+munmap_waits,11.6205128205
+munmap_wait_cycles,2289.87589744
+mremap_waits,0.0
+mremap_wait_cycles,0.0
+mprotect_waits,0.0
+mprotect_wait_cycle,0.0
+critical_section_counter,633498.102564
+critical_section_duration,14340.0153846
+Total Memory Usage
+maxRealMemoryUsage,1.41898031377e+18
+maxRealAllocMemoryUsage,1.41898031378e+18
+maxTotalMemoryUsage,472750237.538
+realMemoryUsage,446098720.395
+realAllocatedMemoryUsage,459171411.805
+totalMemoryUsage,604414981.251
+Detailed Lock Usage
+num sampled accesses,1214316.44103
+total cache bytes accessed,72816808.7487
+total page bytes accessed,4233128649.89
+cache line writes,440073.984615
+cache owner conflicts,0.298437435897
+avg. cache utilization,nan
+avg. page utilization,nan

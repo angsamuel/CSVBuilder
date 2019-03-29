@@ -1,0 +1,69 @@
+FIELD LABELS,omalloc
+num_sbrk,0.0
+size_sbrk,0.0
+cycles_alloc,16298179705.5
+cycles_allocFFL,2.31928110514e+11
+cycles_free,2.44628349034e+11
+NEW ALLOCATIONS
+allocation cycles,2172571.03285
+allocation faults,0.378832116788
+allocation tlb read misses,8.00437956204
+allocation tlb write misses,2.5299270073
+allocation cache misses,11.6430656934
+num allocation instr,35.7912408759
+FREELIST ALLOCATIONS
+allocation cycles,12578136.6401
+allocation faults,0.0773722627737
+allocation tlb read misses,13.8802919708
+allocation tlb write misses,2.8496350365
+allocation cache misses,1.64233576642
+num allocation instr,-3.59489051095
+DEALLOCATIONS
+deallocation cycles,3761246.62774
+deallocation faults,0.000729927007299
+deallocation tlb read misses,4.78613138686
+deallocation tlb write misses,1.3204379562
+deallocation cache misses,25.8934306569
+num deallocation instr,23.5
+LOCK TOTALS
+num pthread mutex locks,2.0
+num pthread trylocks,0.0
+num pthread spin locks,0.0
+num pthread spin trylocks,0.0
+Thread Contention
+mutex_waits,13307563.4088
+mutex_wait_cycles,111307.986131
+mutex_trylock_waits,0.0
+mutex_trylock_fails,0.0
+spinlock_waits,0.0
+spinlock_wait_cycles,0.0
+spin_trylock_waits,0.0
+spin_trylock_fails,0.0
+mmap_waits,36559.1678832
+mmap_wait_cycles,135500.845255
+sbrk_wait_cycles,0.0
+madvise_waits,0.0
+madvise_wait_cycles,0.0
+munmap_waits,40479.1824818
+munmap_wait_cycles,184316.129927
+mremap_waits,0.0
+mremap_wait_cycles,0.0
+mprotect_waits,2.73722627737
+mprotect_wait_cycle,6093.41167883
+critical_section_counter,12533011.9416
+critical_section_duration,72744.9613139
+Total Memory Usage
+maxRealMemoryUsage,8.07886602239e+17
+maxRealAllocMemoryUsage,8.07886602244e+17
+maxTotalMemoryUsage,490500394.978
+realMemoryUsage,482904111.628
+realAllocatedMemoryUsage,488606838.241
+totalMemoryUsage,5358894775.12
+Detailed Lock Usage
+num sampled accesses,1960537.69343
+total cache bytes accessed,112666884.591
+total page bytes accessed,6793440475.96
+cache line writes,713512.978102
+cache owner conflicts,0.318284671533
+avg. cache utilization,nan
+avg. page utilization,nan

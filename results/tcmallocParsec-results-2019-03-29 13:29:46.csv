@@ -1,0 +1,69 @@
+FIELD LABELS,tcmalloc
+num_sbrk,528.310160428
+size_sbrk,525020767.829
+cycles_alloc,6888313022.55
+cycles_allocFFL,74075355503.5
+cycles_free,82347073678.8
+NEW ALLOCATIONS
+allocation cycles,2324105.40802
+allocation faults,0.273796791444
+allocation tlb read misses,26.4459893048
+allocation tlb write misses,1.75026737968
+allocation cache misses,18.4893048128
+num allocation instr,75.9903743316
+FREELIST ALLOCATIONS
+allocation cycles,2162155.88182
+allocation faults,0.00267379679144
+allocation tlb read misses,13.1352941176
+allocation tlb write misses,1.68449197861
+allocation cache misses,20.5588235294
+num allocation instr,23.9048128342
+DEALLOCATIONS
+deallocation cycles,3174461.15561
+deallocation faults,0.0112299465241
+deallocation tlb read misses,5.76363636364
+deallocation tlb write misses,0.591978609626
+deallocation cache misses,24.3219251337
+num deallocation instr,37.6085561497
+LOCK TOTALS
+num pthread mutex locks,0.0
+num pthread trylocks,0.0
+num pthread spin locks,0.0
+num pthread spin trylocks,0.0
+Thread Contention
+mutex_waits,0.0
+mutex_wait_cycles,0.0
+mutex_trylock_waits,0.0
+mutex_trylock_fails,0.0
+spinlock_waits,0.0
+spinlock_wait_cycles,0.0
+spin_trylock_waits,0.0
+spin_trylock_fails,0.0
+mmap_waits,0.0
+mmap_wait_cycles,0.0
+sbrk_wait_cycles,7102.84491979
+madvise_waits,1.54010695187
+madvise_wait_cycles,58902.2566845
+munmap_waits,0.0
+munmap_wait_cycles,0.0
+mremap_waits,0.0
+mremap_wait_cycles,0.0
+mprotect_waits,0.0
+mprotect_wait_cycle,0.0
+critical_section_counter,0.0
+critical_section_duration,0.0
+Total Memory Usage
+maxRealMemoryUsage,2.07155949533e+18
+maxRealAllocMemoryUsage,2.07155949535e+18
+maxTotalMemoryUsage,463863654.674
+realMemoryUsage,472249267.07
+realAllocatedMemoryUsage,488223509.524
+totalMemoryUsage,525896698.524
+Detailed Lock Usage
+num sampled accesses,1159930.18182
+total cache bytes accessed,70092642.6417
+total page bytes accessed,4162653189.73
+cache line writes,411385.508021
+cache owner conflicts,0.310107486631
+avg. cache utilization,nan
+avg. page utilization,nan

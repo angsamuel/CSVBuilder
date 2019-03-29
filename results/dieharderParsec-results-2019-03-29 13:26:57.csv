@@ -1,0 +1,69 @@
+FIELD LABELS,dieharder
+num_sbrk,0.0
+size_sbrk,0.0
+cycles_alloc,61908926871.6
+cycles_allocFFL,1.05844490093e+12
+cycles_free,1.18778976743e+12
+NEW ALLOCATIONS
+allocation cycles,3708322.08019
+allocation faults,0.887922705314
+allocation tlb read misses,136.128985507
+allocation tlb write misses,3.24492753623
+allocation cache misses,29.0140096618
+num allocation instr,76.4589371981
+FREELIST ALLOCATIONS
+allocation cycles,65660785.8705
+allocation faults,0.0555555555556
+allocation tlb read misses,4845.04057971
+allocation tlb write misses,0.961835748792
+allocation cache misses,336.342028986
+num allocation instr,24.0086956522
+DEALLOCATIONS
+deallocation cycles,28760738.4024
+deallocation faults,0.0154589371981
+deallocation tlb read misses,238.442028986
+deallocation tlb write misses,0.475362318841
+deallocation cache misses,65.3922705314
+num deallocation instr,37.9642512077
+LOCK TOTALS
+num pthread mutex locks,4.0
+num pthread trylocks,0.0
+num pthread spin locks,0.0
+num pthread spin trylocks,0.0
+Thread Contention
+mutex_waits,60530020.2899
+mutex_wait_cycles,8262102.81498
+mutex_trylock_waits,0.0
+mutex_trylock_fails,0.0
+spinlock_waits,0.0
+spinlock_wait_cycles,0.0
+spin_trylock_waits,0.0
+spin_trylock_fails,0.0
+mmap_waits,55125.0821256
+mmap_wait_cycles,6719.93140097
+sbrk_wait_cycles,0.0
+madvise_waits,0.0
+madvise_wait_cycles,0.0
+munmap_waits,14446.2125604
+munmap_wait_cycles,166229.457971
+mremap_waits,0.0
+mremap_wait_cycles,0.0
+mprotect_waits,0.0
+mprotect_wait_cycle,0.0
+critical_section_counter,11846474.5604
+critical_section_duration,4131127.31353
+Total Memory Usage
+maxRealMemoryUsage,8.02032351517e+17
+maxRealAllocMemoryUsage,8.0203235156e+17
+maxTotalMemoryUsage,548593149.527
+realMemoryUsage,487792889.527
+realAllocatedMemoryUsage,544677742.797
+totalMemoryUsage,5849854446.69
+Detailed Lock Usage
+num sampled accesses,1370026.63768
+total cache bytes accessed,75749657.6473
+total page bytes accessed,4450982364.91
+cache line writes,473564.811594
+cache owner conflicts,0.327020772947
+avg. cache utilization,nan
+avg. page utilization,nan
